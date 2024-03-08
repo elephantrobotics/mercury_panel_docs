@@ -1,63 +1,66 @@
-#1 快速移动
-关节和坐标控制在**QuickMove**页面中，通过选择坐标控制和角度控制进入不通界面控制，控制机械臂运动方式分为**连续运动**、**步进运动**，连续运动按着按钮直到释放按钮，机械臂才会停止运动；步进运动，设置好增量，机械臂到达点位就会停止。<br>
-## 1.1 角度控制
-Angles为关节控制，Joint1-7分别对应关节1-7<br>
-功能说明：<br>
-run处选择连续或者步进值1/5。Angles处每个关节都有加减角度按钮，减小角度按减号这边的按钮，加大角度按加号这边的按钮。连续运动，按下按钮后，直到释放按钮才会停止（达到限位后也会停止），步进运动到达点位就会停止（比如关节1现在角度30，增量值50，按下减号这边按钮，那么机械臂运动到-20就会停止）。<br>
+#1 Move quickly
+Joint and coordinate control in the **QuickMove** page, through the selection of coordinate control and Angle control to enter the interface control, control the movement of the robot arm can be divided into **continuous motion**, **step motion**, continuous motion press the button until the button is released, the robot arm will not stop moving; Stepping movement, set up incremental, robotic arm to reach the point will stop. <br>
 
-## 1.2 坐标控制
-注意：使用坐标控制前，需要先通过角度控制让机械臂达到一定的姿态，否则无法进行坐标控制。<br>
+##1.1 Angle control
 
-Coords为坐标控制<br>
-功能说明：<br>
-run处选择连续或者步进值1/5。Coords的每个坐标轴都可以选中，对应的坐标减小按减号这边的按钮，加大按加号这边的按钮。连续运动，按下按钮后，直到释放按钮才会停止（达到限位后也会停止），步进运动到达点位就会停止（比如X轴现在坐标30，增量值50，按下加号这边按钮，那么机械臂运动到80就会停止）。<br>
+Angles are joint control, Joint1-7 corresponds to joint 1-7 respectively <br>
+Function Description: <br>
+Run place choose continuous or 1/5 step value. Angles of each joint has a button to add and subtract Angle, decrease the Angle by the side of the minus sign button, button Angle according to the plus sign here. Continuous motion, after pressing the button, it will not stop until the release button (it will also stop after reaching the limit), and the stepping movement will stop when it reaches the point (for example, joint 1 is at an Angle of 30 with an incremental value of 50, press the button on the side of the minus sign, then the robot arm will stop when it moves to -20). <br>
 
-##1.3 自由移动
-按下自由移动按钮进入自由移动模式，atom的rgb灯变色，持续按下末端的rgb按钮机械臂整体放松，可对机械臂整体进行自由移动，松开末端的rgb按钮机械臂整体锁紧。再次点击自由移动退出自由移动模式。
+##1.2 Coord control
 
-#2 拖动示教
+Note: Before using coordinate control, it is necessary to make the robot arm reach a certain attitude through Angle control, otherwise coordinate control cannot be performed. <br>
 
-##2.1 录制轨迹
-进入拖动示教界面机械臂整体会放松，录制按钮点击后会录制后面进行的动作，再次点击停止录制，机械臂整体锁紧，录制完成，此时可播放已录制的动作。录制过程中可点击暂停按钮，暂停轨迹的录制，此时机械臂整体会锁紧，点击继续录制机械臂会放松，此时进入录制状态，延续之前的录制轨迹继续录制。
+Coords for coordinate control < br >
+Function description: < br >
+Select a continuous or step value of 1/5 at run. Each coordinate axis of Coords can be selected, and the corresponding coordinate is reduced by pressing the button on the minus side and increased by pressing the button on the plus side. Continuous movement, after pressing the button, it will not stop until the release button (it will stop after reaching the limit), and the stepping movement will stop when it reaches the point (for example, the X-axis is now coordinate 30, the increment value is 50, press the button on the side of the plus sign, then the robot arm will stop when it moves to 80). <br>
 
-##2.2 播放
-播放已录制的动作，分别为持续执行和执行一次，持续执行按钮会循环执行已录制动作，执行一次按钮只会播放一次动作。
+##1.3 free to move
+Press the free move button to enter the free move mode, and the rgb light of atom will change color. By continuously pressing the rgb button at the end of the robot arm, the overall movement of the robot arm will be relaxed, and the overall locking of the rgb button at the end will be released. Click Free Move again to exit Free Move mode.
 
-#3 电机状态
+#2 Drag & Play
 
-##3.1 状态监测
+##2.1 recorded 
+After entering the drag teaching interface, the robot arm will relax as a whole. After clicking the recording button, the following actions will be recorded. After clicking the recording button again, the robot arm will be locked as a whole and the recorded actions can be played after the recording is completed. Can click the pause button in the process of recording, suspended track record, the mechanical arm as a whole will lock, click continue to record the mechanical arm can relax, at this time into the recording state, continue the previous recorded track record.
 
-电机状态界面会实时刷新电机的连接状态。
+##2.2 execute
+The recorded actions can be played continuously or once. The "Continue" button plays the recorded actions in a loop. The "Once" button plays only one action.
 
-##3.2 电机控制
+#3 motor state
 
-可以通过电机状态界面的2个按钮（focus motors、release motors）分别对机械臂整体进行锁紧和放松操作。
+##3.1 Condition monitoring
 
-#4 设置
+The motor status interface will refresh the motor connection status in real time.
 
-##4.1 IO状态
-IO状态界面会实时刷新atom和basic的io高低电平状态。
+##3.2 Motor control
 
-##4.2 上电
-点击上电按钮，给机械臂上电，上电过程接近7秒。
+Can through motor state interface of two buttons (focus motors, release motors), respectively, for the whole mechanical arm lock and relaxed operation.
 
-##4.3 掉电
-点击上电按钮，给机械臂掉电，掉电过程接近3秒。
+#4 settings
 
-##4.4 多动测试
-多动测试，对机械臂的每个关节进行多个点位的移动。
+##4.1 IO Connections
+IO interface can be real-time refresh atom and state the basic state of IO v.
 
-##4.5 老化测试
-老化测试，机械臂进行一组幅度较大的点位运动，再次点击该按钮之前不会停下来，再次点击后会执行完当前动作再停下。
+##4.2 Power On
+Click the power on button to power on the robot arm, and the power-on process is close to 7 seconds.
 
-##4.6 语言设置
-对应用语言进行设置。
+##4.3 Power Off
+Button, click on electricity to mechanical arm off electricity, close to the electrical process for 3 seconds.
 
-##4.7 串口
-串口界面可以对通讯串口进行连接和断开操作，默认串口是连接状态。
+##4.4 Mobility Test
+Hyperactivity test, multiple levels of mechanical arm of each joint movement.
 
-##4.8 校准
-校准界面可以点击掉电按钮对对应机械臂关节进行放松，移动到新的零点，点击校准，零位更新且关节锁紧。
+##4.5 Aging Test
+Aging test, mechanical arm movement, a group of the larger point again before clicking this button will not stop, click again after the execution of the current action to stop.
 
-##4.9 关于
-关于界面有版本号信息。
+##4.6 language Settings
+Set the application language.
+
+##4.7 serial port
+Serial interface to connect and disconnect the communication serial port operation, a serial port is the connection state by default.
+
+##4.8 Calibration
+Calibration interface can click on the power button on the corresponding mechanical arm joints to relax, moved to the new zero point, click on the calibration, zero update lock and joints.
+
+##4.9 About
+Information about interface has a version number.
