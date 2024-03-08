@@ -1,1 +1,0 @@
-# mercury_panel_docs
