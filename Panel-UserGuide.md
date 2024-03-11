@@ -105,3 +105,5 @@ Click About to enter the About screen to view the application version.
 
 ![pic](./resources/En/case/about.png)
 ![pic](./resources/En/about.png)
+
+**Note:** The monitor mode, Log, and high/low level buttons on the IO status interface are not yet developed.
