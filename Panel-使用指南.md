@@ -30,6 +30,7 @@ Mercury Panel是一款通过触摸机械臂底座的cm4对水星机械臂进行�
 ![pic](./resources/case/dragplayend.png)
 
 录制过程中点击暂停录制后机械臂整体锁紧，继续录制点位点击继续录制。
+
 ![pic](./resources/case/dragplaypause.png)
 
 点击单次执行，播放一次录制完成的动作；点击持续执行，循环播放录制动作，点击停止，执行完当前动作后停止播放。
