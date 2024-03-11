@@ -105,3 +105,5 @@ Mercury Panel是一款通过触摸机械臂底座的cm4对水星机械臂进行�
 
 ![pic](./resources/case/about.png)
 ![pic](./resources/about.png)
+
+**注意：** 设置界面的监听模式、Log、以及IO状态界面的设置高低电平按钮暂未开发。
