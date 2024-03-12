@@ -75,7 +75,12 @@ On this screen you can click IO status to view the IO status corresponding to at
 ![pic](./resources/En/case/io.png)
 ![pic](./resources/En/ioconnections.png)
 
+IO status interface setting pin high and low level has not been developed.
+
+![pic](./resources/En/case/ioset.png)
+
 The monitor mode is not yet developed.
+
 ![pic](./resources/En/case/settingsmonitor.png)
 
 Click Power -> On, power on, wait 7s for the power-on process; Click Power -> Power Off, power off, power off process wait 3 seconds.
@@ -105,7 +110,7 @@ Click Calibrate to enter the calibration screen. You can perform a psychic calib
 ![pic](./resources/En/case/calibrate.png)
 ![pic](./resources/En/calibrate.png)
 
-The log interface is not developed yet.
+The Log interface is not developed yet.
 
 ![pic](./resources/En/case/settingnextlog.png)
 
@@ -114,4 +119,3 @@ Click About to enter the About screen to view the application version.
 ![pic](./resources/En/case/about.png)
 ![pic](./resources/En/about.png)
 
-**Note:** The monitor mode, Log, and high/low level buttons on the IO status interface are not yet developed.
