@@ -1,4 +1,4 @@
-#Mercury Panel User Guide
+#Mercury Panel User Guide<br>
 
 ##1 Mercury Panel Introduction
 
