@@ -9,7 +9,7 @@ Run place choose continuous or 1/5 step value. Angles of each joint has a button
 
 ## 1.2 Coord control
 
-Note: Before using coordinate control, it is necessary to make the robot arm reach a certain attitude through Angle control, otherwise coordinate control cannot be performed. <br>
+**Note:** Before using coordinate control, it is necessary to make the robot arm reach a certain attitude through Angle control, otherwise coordinate control cannot be performed. <br>
 
 Coords for coordinate control < br >
 Function description: < br >

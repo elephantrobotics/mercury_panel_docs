@@ -59,6 +59,7 @@ Free movement: Press the free movement button to enter the free movement mode, a
 ![pic](./resources/En/case/freemove1.png)
 
 ### 2.3 Overall operating state
+
 Click the motor status on the main interface to enter the motor status interface and check the motor connection status. The whole mechanical arm can be relaxed and locked by all locking and all relaxing.
 
 ![pic](./resources/En/case/main3.png)
@@ -73,6 +74,9 @@ On this screen you can click IO status to view the IO status corresponding to at
 
 ![pic](./resources/En/case/io.png)
 ![pic](./resources/En/ioconnections.png)
+
+The monitor mode is not yet developed.
+![pic](./resources/En/case/settingsmonitor.png)
 
 Click Power -> On, power on, wait 7s for the power-on process; Click Power -> Power Off, power off, power off process wait 3 seconds.
 
@@ -100,6 +104,10 @@ Click Calibrate to enter the calibration screen. You can perform a psychic calib
 
 ![pic](./resources/En/case/calibrate.png)
 ![pic](./resources/En/calibrate.png)
+
+The log interface is not developed yet.
+
+![pic](./resources/En/case/settingnextlog.png)
 
 Click About to enter the About screen to view the application version.
 
