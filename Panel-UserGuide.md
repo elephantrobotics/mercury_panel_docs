@@ -11,11 +11,11 @@ Applicable equipment:
 
 **Be sure to download the updated atom and basic firmware before use**
 
-##2 How to use it
+## 2 How to use it
 
 After ensuring that your machine has been configured with the panel to start, run the panel when it starts. When the panel is run, the user can intuitively see the button that can be clicked and the corresponding comment. The default startup is the power-on state (the rbg light at the end of the power-on state will be on). The gray triangle in the upper left corner of the interface is to return to the previous interface, and the x in the upper right corner is to close the interface.
 
-###2.1 Drag & Play
+### 2.1 Drag & Play
 Click drag to teach in the main interface to enter the drag to teach interface.
 
 ![pic](./resources/En/case/main1.png)
@@ -39,7 +39,7 @@ Click Single execution to play a recorded action; Click Continue to play the rec
 ![pic](./resources/En/case/dragplaycontinue.png)
 
 
-###2.2 Motion control
+### 2.2 Motion control
 
 Click "Quick Move" in the main interface to enter the "Quick Move" interface and select Angle control or coordinate control.
 
@@ -58,7 +58,7 @@ Free movement: Press the free movement button to enter the free movement mode, a
 ![pic](./resources/En/case/freemove.png)
 ![pic](./resources/En/case/freemove1.png)
 
-###2.3 Overall operating state
+### 2.3 Overall operating state
 Click the motor status on the main interface to enter the motor status interface and check the motor connection status. The whole mechanical arm can be relaxed and locked by all locking and all relaxing.
 
 ![pic](./resources/En/case/main3.png)
