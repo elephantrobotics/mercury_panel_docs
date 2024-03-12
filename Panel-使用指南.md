@@ -74,6 +74,14 @@ Mercury Panel是一款通过触摸机械臂底座的cm4对水星机械臂进行�
 ![pic](./resources/case/io.png)
 ![pic](./resources/ioconnections.png)
 
+IO状态界面设置引脚高低电平暂未开发。
+
+![pic](./resources/case/ioset.png)
+
+监听模式暂未开发。
+
+![pic](./resources/case/settingsmonitor.png)
+
 点击电源->开，上电，上电过程需等待7s；点击电源->关，掉电，掉电过程需等待3秒。
 
 ![pic](./resources/case/poweron.png)
@@ -101,9 +109,11 @@ Mercury Panel是一款通过触摸机械臂底座的cm4对水星机械臂进行�
 ![pic](./resources/case/calibrate.png)
 ![pic](./resources/calibrate.png)
 
+Log界面暂未开发。
+
+![pic](./resources/case/settingsnextlog.png)
+
 点击关于进入关于界面，查看应用版本。
 
 ![pic](./resources/case/about.png)
 ![pic](./resources/about.png)
-
-**注意：** 设置界面的监听模式、Log、以及IO状态界面的设置高低电平按钮暂未开发。
