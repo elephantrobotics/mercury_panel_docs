@@ -1,6 +1,6 @@
-#Mercury Panel User Guide<br>
+#Mercury Panel User Guide
 
-##1 Mercury Panel Introduction
+## 1 Mercury Panel Introduction
 
 Mercury Panel is an application that controls the Mercury robot arm by touching the cm4 on the base of the robot arm. Its functions are coordinate control, Angle control, drag teaching, etc.), which is convenient for operators to interact with elephant robots and correctly use elephant robots.
 
